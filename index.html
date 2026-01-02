@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suresh Bikes | Nepal's First Ironman Champion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">S</span>
+                <span class="logo-text">SURESH<span class="logo-accent">BIKES</span></span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#story">My Story</a></li>
+                <li><a href="#bikes">Bikes</a></li>
+                <li><a href="#gear">Gear</a></li>
+                <li><a href="#training">Training</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="cart-btn" id="cart-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                    <span class="cart-count" id="cart-count">0</span>
+                </button>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <img src="images/coverphotosideonbike.jpg" alt="Suresh on bike">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">Nepal's First Ironman</div>
+            <h1 class="hero-title">
+                <span class="hero-small">Engineered by</span>
+                <span class="hero-name">SURESH</span>
+                <span class="hero-tagline">Champion Performance</span>
+            </h1>
+            <p class="hero-description">
+                Premium triathlon bikes crafted with the spirit of the Himalayas.
+                Born from years of elite competition and the relentless pursuit of excellence.
+            </p>
+            <div class="hero-buttons">
+                <a href="#bikes" class="btn btn-primary">Explore Bikes</a>
+                <a href="#story" class="btn btn-secondary">My Journey</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">140.6</span>
+                    <span class="stat-label">Miles Conquered</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">1st</span>
+                    <span class="stat-label">Nepalese Ironman</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Years Racing</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story" id="story">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-images">
+                    <div class="story-img story-img-main">
+                        <img src="images/winningflag.jpg" alt="Suresh with Nepal flag">
+                    </div>
+                    <div class="story-img story-img-small">
+                        <img src="images/ironmanfinishtime.jpg" alt="Ironman finish">
+                    </div>
+                </div>
+                <div class="story-content">
+                    <span class="section-tag">The Legend</span>
+                    <h2 class="section-title">From the Himalayas to Ironman Glory</h2>
+                    <p class="story-text">
+                        Growing up in the shadows of the world's highest peaks, I learned that true
+                        strength comes from within. Every mountain trail, every challenging climb
+                        prepared me for the ultimate test of endurance.
+                    </p>
+                    <p class="story-text">
+                        Becoming Nepal's first Ironman wasn't just a personal achievement—it was
+                        a statement that champions can emerge from anywhere. Now, I pour that same
+                        determination into every bike that bears my name.
+                    </p>
+                    <div class="story-quote">
+                        <blockquote>
+                            "The finish line is just the beginning of a new journey."
+                        </blockquote>
+                        <cite>— Suresh</cite>
+                    </div>
+                    <div class="achievements">
+                        <div class="achievement">
+                            <div class="achievement-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                            </div>
+                            <span>Ironman Finisher</span>
+                        </div>
+                        <div class="achievement">
+                            <div class="achievement-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/>
+                                    <line x1="4" y1="22" x2="4" y2="15"/>
+                                </svg>
+                            </div>
+                            <span>National Champion</span>
+                        </div>
+                        <div class="achievement">
+                            <div class="achievement-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+                                </svg>
+                            </div>
+                            <span>Pioneer Athlete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bikes Section -->
+    <section class="bikes" id="bikes">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Performance Machines</span>
+                <h2 class="section-title">Triathlon Bikes</h2>
+                <p class="section-subtitle">Engineered for those who refuse to settle for second place</p>
+            </div>
+
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All Bikes</button>
+                <button class="filter-btn" data-filter="tri">Triathlon</button>
+                <button class="filter-btn" data-filter="road">Road</button>
+                <button class="filter-btn" data-filter="aero">Aero</button>
+            </div>
+
+            <div class="products-grid" id="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="tri">
+                    <div class="product-badge">Best Seller</div>
+                    <div class="product-image">
+                        <div class="product-placeholder">
+                            <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <circle cx="5.5" cy="17.5" r="3.5"/>
+                                <circle cx="18.5" cy="17.5" r="3.5"/>
+                                <path d="M15 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-3 11.5V14l-3-3 4-3 2 3h2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Everest TT Pro</h3>
+                        <p class="product-desc">Ultimate triathlon time-trial machine with integrated aerodynamics</p>
+                        <div class="product-specs">
+                            <span>Carbon Frame</span>
+                            <span>11.2 lbs</span>
+                            <span>Di2 Ready</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">$5,999</span>
+                            <button class="add-to-cart" data-id="1" data-name="Everest TT Pro" data-price="5999">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card" data-category="aero">
+                    <div class="product-badge new">New</div>
+                    <div class="product-image">
+                        <div class="product-placeholder">
+                            <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <circle cx="5.5" cy="17.5" r="3.5"/>
+                                <circle cx="18.5" cy="17.5" r="3.5"/>
+                                <path d="M15 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-3 11.5V14l-3-3 4-3 2 3h2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Himalaya Aero X</h3>
+                        <p class="product-desc">Wind-tunnel tested aerodynamic excellence for pure speed</p>
+                        <div class="product-specs">
+                            <span>Full Carbon</span>
+                            <span>10.8 lbs</span>
+                            <span>Aero Bars</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">$7,499</span>
+                            <button class="add-to-cart" data-id="2" data-name="Himalaya Aero X" data-price="7499">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card" data-category="road">
+                    <div class="product-image">
+                        <div class="product-placeholder">
+                            <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <circle cx="5.5" cy="17.5" r="3.5"/>
+                                <circle cx="18.5" cy="17.5" r="3.5"/>
+                                <path d="M15 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-3 11.5V14l-3-3 4-3 2 3h2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Kathmandu Road</h3>
+                        <p class="product-desc">Versatile road bike perfect for training and racing</p>
+                        <div class="product-specs">
+                            <span>Carbon/Alloy</span>
+                            <span>12.1 lbs</span>
+                            <span>105 Group</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">$3,299</span>
+                            <button class="add-to-cart" data-id="3" data-name="Kathmandu Road" data-price="3299">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card" data-category="tri">
+                    <div class="product-image">
+                        <div class="product-placeholder">
+                            <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <circle cx="5.5" cy="17.5" r="3.5"/>
+                                <circle cx="18.5" cy="17.5" r="3.5"/>
+                                <path d="M15 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-3 11.5V14l-3-3 4-3 2 3h2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Summit Tri Elite</h3>
+                        <p class="product-desc">Competition-ready triathlon bike for serious athletes</p>
+                        <div class="product-specs">
+                            <span>T800 Carbon</span>
+                            <span>11.5 lbs</span>
+                            <span>Ultegra</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">$4,799</span>
+                            <button class="add-to-cart" data-id="4" data-name="Summit Tri Elite" data-price="4799">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card" data-category="aero">
+                    <div class="product-badge premium">Premium</div>
+                    <div class="product-image">
+                        <div class="product-placeholder">
+                            <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <circle cx="5.5" cy="17.5" r="3.5"/>
+                                <circle cx="18.5" cy="17.5" r="3.5"/>
+                                <path d="M15 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-3 11.5V14l-3-3 4-3 2 3h2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Ironman Signature</h3>
+                        <p class="product-desc">Suresh's personal race bike, limited edition masterpiece</p>
+                        <div class="product-specs">
+                            <span>T1100 Carbon</span>
+                            <span>10.2 lbs</span>
+                            <span>Dura-Ace</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">$12,999</span>
+                            <button class="add-to-cart" data-id="5" data-name="Ironman Signature" data-price="12999">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card" data-category="road">
+                    <div class="product-image">
+                        <div class="product-placeholder">
+                            <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                                <circle cx="5.5" cy="17.5" r="3.5"/>
+                                <circle cx="18.5" cy="17.5" r="3.5"/>
+                                <path d="M15 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-3 11.5V14l-3-3 4-3 2 3h2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Annapurna Climber</h3>
+                        <p class="product-desc">Ultra-lightweight climbing machine for mountain stages</p>
+                        <div class="product-specs">
+                            <span>Carbon</span>
+                            <span>11.8 lbs</span>
+                            <span>Compact</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">$4,199</span>
+                            <button class="add-to-cart" data-id="6" data-name="Annapurna Climber" data-price="4199">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gear Section -->
+    <section class="gear" id="gear">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-tag">Complete Your Kit</span>
+                <h2 class="section-title">Triathlon Gear</h2>
+                <p class="section-subtitle">Everything you need to train and race like a champion</p>
+            </div>
+
+            <div class="gear-grid">
+                <div class="gear-card">
+                    <div class="gear-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2a4 4 0 0 0-4 4v2H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2h-2V6a4 4 0 0 0-4-4z"/>
+                        </svg>
+                    </div>
+                    <h3>Helmets</h3>
+                    <p>Aero and road helmets designed for speed and safety</p>
+                    <span class="gear-price">From $199</span>
+                    <button class="add-to-cart gear-btn" data-id="7" data-name="Aero Helmet" data-price="199">Shop Now</button>
+                </div>
+
+                <div class="gear-card">
+                    <div class="gear-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/>
+                        </svg>
+                    </div>
+                    <h3>Tri Suits</h3>
+                    <p>Race-ready suits for swim, bike, and run performance</p>
+                    <span class="gear-price">From $249</span>
+                    <button class="add-to-cart gear-btn" data-id="8" data-name="Pro Tri Suit" data-price="249">Shop Now</button>
+                </div>
+
+                <div class="gear-card">
+                    <div class="gear-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3>Watches</h3>
+                    <p>GPS multisport watches for training and racing</p>
+                    <span class="gear-price">From $399</span>
+                    <button class="add-to-cart gear-btn" data-id="9" data-name="GPS Triathlon Watch" data-price="399">Shop Now</button>
+                </div>
+
+                <div class="gear-card">
+                    <div class="gear-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M4 4h16v16H4z"/>
+                            <path d="M9 9h6v6H9z"/>
+                        </svg>
+                    </div>
+                    <h3>Nutrition</h3>
+                    <p>Energy gels, bars, and hydration for peak performance</p>
+                    <span class="gear-price">From $29</span>
+                    <button class="add-to-cart gear-btn" data-id="10" data-name="Race Nutrition Pack" data-price="29">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training Section -->
+    <section class="training" id="training">
+        <div class="container">
+            <div class="training-content">
+                <div class="training-info">
+                    <span class="section-tag">Train Like a Champion</span>
+                    <h2 class="section-title">Suresh Training Academy</h2>
+                    <p>Learn the techniques and training methods that took me from the trails of Nepal to the Ironman finish line. Join our exclusive coaching programs designed for triathletes of all levels.</p>
+
+                    <div class="training-features">
+                        <div class="training-feature">
+                            <div class="feature-check">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Personalized Plans</h4>
+                                <p>Custom training programs tailored to your goals</p>
+                            </div>
+                        </div>
+                        <div class="training-feature">
+                            <div class="feature-check">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Video Analysis</h4>
+                                <p>Detailed technique reviews and feedback</p>
+                            </div>
+                        </div>
+                        <div class="training-feature">
+                            <div class="feature-check">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Community Access</h4>
+                                <p>Join our global community of athletes</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="btn btn-primary">Start Training</a>
+                </div>
+                <div class="training-image">
+                    <img src="images/thumbsupcycling.jpg" alt="Suresh cycling">
+                    <div class="training-badge">
+                        <span class="badge-number">500+</span>
+                        <span class="badge-text">Athletes Coached</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What Athletes Say</span>
+                <h2 class="section-title">Trusted by Champions</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                    </div>
+                    <p>"The Everest TT Pro shaved 8 minutes off my Ironman bike split. Absolutely incredible machine."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JM</div>
+                        <div>
+                            <strong>James Mitchell</strong>
+                            <span>Ironman Finisher</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                    </div>
+                    <p>"Suresh's coaching program transformed my approach to triathlon. His experience is invaluable."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SK</div>
+                        <div>
+                            <strong>Sarah Kim</strong>
+                            <span>Age Group Champion</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                    </div>
+                    <p>"The attention to detail in every Suresh bike is remarkable. Worth every penny."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RP</div>
+                        <div>
+                            <strong>Raj Patel</strong>
+                            <span>70.3 Competitor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-image">
+                    <img src="images/youngnepalesesuresh.jpg" alt="Young Suresh">
+                </div>
+                <div class="newsletter-info">
+                    <h2>Join the Journey</h2>
+                    <p>Get exclusive access to training tips, new product launches, and inspiring stories from the road to Ironman glory.</p>
+                    <form class="newsletter-form" id="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                    <span class="newsletter-note">No spam. Unsubscribe anytime.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle">Have questions? We'd love to hear from you.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Visit Us</h4>
+                            <p>Kathmandu, Nepal</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>suresh@sureshbikes.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>+977 1 234 5678</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="" disabled selected>Subject</option>
+                            <option value="bikes">Bike Inquiry</option>
+                            <option value="gear">Gear Question</option>
+                            <option value="training">Training Program</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">S</span>
+                        <span class="logo-text">SURESH<span class="logo-accent">BIKES</span></span>
+                    </a>
+                    <p>Engineered by Nepal's first Ironman champion. Built for those who chase greatness.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#bikes">Triathlon Bikes</a></li>
+                        <li><a href="#bikes">Road Bikes</a></li>
+                        <li><a href="#gear">Helmets</a></li>
+                        <li><a href="#gear">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#story">Our Story</a></li>
+                        <li><a href="#training">Training</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Suresh Bikes. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-overlay" id="cart-overlay"></div>
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="cart-close" id="cart-close">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items will be inserted here -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total">$0</span>
+            </div>
+            <button class="btn btn-primary btn-full" id="checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <span id="toast-message">Item added to cart!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
