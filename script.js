@@ -6,6 +6,24 @@ const toast = document.getElementById('toast');
 const toastMessage = document.getElementById('toast-message');
 const newsletterForm = document.getElementById('newsletter-form');
 const contactForm = document.getElementById('contact-form');
+const backToTop = document.getElementById('back-to-top');
+
+// Back to Top functionality
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 500) {
+        backToTop.classList.add('active');
+    } else {
+        backToTop.classList.remove('active');
+    }
+});
+
+backToTop.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
 
 // ===== Navbar Scroll Effect =====
 window.addEventListener('scroll', () => {
